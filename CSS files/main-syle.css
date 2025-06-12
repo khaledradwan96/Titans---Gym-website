@@ -18,11 +18,7 @@
 /* ========== Home section ========== */
 #home {
   position: relative;
-  height: 70vh;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 #home .home-text {
   position: relative;
@@ -30,4 +26,18 @@
   background-color: rgb(0, 0, 0, 0.45);
   padding: 3rem;
   border-radius: 12px;
+}
+@media (min-width: 480px) {
+  #home {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #home #carousel-home-images {
+    position: absolute;
+    top: 0;
+  }
+}
+@media (min-width: 768px) {
 }
