@@ -59,3 +59,13 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
+
+/* ========== Expert Trainers Section ========== */
+#expert-trainers {
+  padding: 4rem 0;
+  background-color: #e2e2e2;
+}
+#expert-trainers .card img {
+  height: 300px;
+  object-fit: fill;
+}
