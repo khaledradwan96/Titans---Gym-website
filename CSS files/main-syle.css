@@ -18,26 +18,44 @@
 /* ========== Home section ========== */
 #home {
   position: relative;
+  height: 100vh;
   overflow: hidden;
 }
+
+#home .carousel-item img {
+  object-fit: cover;
+  height: 100vh;
+}
+
 #home .home-text {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  background-color: rgb(0, 0, 0, 0.45);
-  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 2rem 3rem;
   border-radius: 12px;
+  max-width: 80%;
 }
-@media (min-width: 480px) {
+
+@media (max-width: 992px) {
   #home {
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
   }
-  #home #carousel-home-images {
-    position: absolute;
-    top: 0;
+
+  #home .carousel-item img {
+    height: 60vh;
   }
-}
-@media (min-width: 768px) {
+
+  #home .home-text {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 1rem auto;
+    width: 90%;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
