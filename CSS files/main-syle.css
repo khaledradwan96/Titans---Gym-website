@@ -124,3 +124,21 @@ footer .social i {
 footer .social i:hover {
   background-color: #ffc107;
 }
+
+/* ========== Pages Home ========== */
+.pages-home {
+  position: relative;
+  padding: 4rem 0;
+  background-image: url("../assets/images/pages_home.avif");
+  background-size: cover;
+  background-position: center;
+  object-fit: fill;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
