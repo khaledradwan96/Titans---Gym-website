@@ -66,7 +66,7 @@
   background-color: #e2e2e2;
 }
 #expert-trainers .card img {
-  height: 300px;
+  height: auto;
   object-fit: fill;
 }
 
