@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 /* ========== header ========== */
 .navbar-nav .nav-item a {
   color: white;
@@ -125,7 +128,7 @@ footer .social i:hover {
   background-color: #ffc107;
 }
 
-/* ========== Pages Home ========== */
+/* ========== Pages Home Section ========== */
 .pages-home {
   position: relative;
   padding: 4rem 0;
@@ -141,4 +144,23 @@ footer .social i:hover {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* ========== Membership Plans Section ========== */
+#membership-plans .card-ship {
+  border: 15px solid transparent;
+  border-top-color: #ffc107;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#membership-plans .btn {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding-inline: 1.5rem;
 }
