@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../CSS files/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS files/main-syle.css">
-    <title>Titans | Registration</title>
+    <title>Titans | Login</title>
 </head>
 
 <body>
@@ -53,10 +53,10 @@
     <section class="pages-home">
         <div class="overlay"></div>
         <div class="text-white text-center position-relative">
-            <h3 class="my-5 text-uppercase fs-1">Registration</h3>
+            <h3 class="my-5 text-uppercase fs-1">Login</h3>
             <span>
                 <i class="fa-solid fa-house"></i>
-                <strong>Home</strong> > Registration
+                <strong>Home</strong> > Login
             </span>
         </div>
     </section>
@@ -65,20 +65,17 @@
     <section class="py-5">
         <div class="container">
             <div class="shadow p-4 rounded" style="max-width: 500px; margin: auto;">
-                <h2 class="mb-3 text-center">Create a new account</h2>
-                <form id="registerForm">
-                    <input type="text" id="userName" name="userName" placeholder="Enter You Name"
-                        class="form-control mb-3" required>
-                    <input type="email" id="registerEmail" name="email" placeholder="Email address"
+                <h2 class="mb-3 text-center">Login</h2>
+                <form id="loginForm">
+                    <input type="email" id="loginEmail" name="email" placeholder="Email address"
                         class="form-control mb-3" required>
                     <input type="password" id="password" name="password" placeholder="Password" minlength="6"
                         class="form-control mb-3" required>
-                    <input type="password" id="rePassword" name="rePassword" placeholder="rewrite Password"
-                        class="form-control mb-3" required>
-                    <input type="submit" value="Sign Up" class="form-control btn btn-warning text-white">
+                    <input type="submit" value="Login" class="form-control btn btn-warning text-white">
+                    <span id="errorMsg" class="text-danger"></span>
                     <div class=" mt-3">
-                        <span class="me-3 text-black">Already have an account?</span>
-                        <a href="login.html" class="btn btn-outline-success px-4">Login</a>
+                        <span class="me-3 text-black">Don't have an account?</span>
+                        <a href="./registration.html" class="btn btn-outline-success px-4">Registration</a>
                     </div>
             </div>
             </form>
