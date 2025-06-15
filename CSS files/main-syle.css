@@ -127,7 +127,7 @@ footer .social i {
 footer .social i:hover {
   background-color: #ffc107;
 }
-
+/* ============================== Pages ============================== */
 /* ========== Pages Home Section ========== */
 .pages-home {
   position: relative;
@@ -173,4 +173,9 @@ footer .social i:hover {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+/* ========== Contact Us Page ========== */
+.about-us-numbers {
+  background: linear-gradient(to left, #ffae00, #ffc107);
 }
